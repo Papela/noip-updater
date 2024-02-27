@@ -13,6 +13,7 @@ To run the image with docker use the following command:
     -e NOIP_INTERVAL=<The update interval (default: 60 minutes)> \
     papela/noip-updater:latest
 ```
+_To be able to use the image on an armx64 processor, use the image: **papela/noip-updater:armx64latest**_
 
 Correct time in container:
 ------------- 
